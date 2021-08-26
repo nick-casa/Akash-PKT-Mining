@@ -20,11 +20,11 @@ profiles:
     miner:
       resources:
         cpu:
-          units: << SPECIFY THE AMOUNT OF CORES >>
+          units: 5
         memory:
-          size: 1Gi << I FOUND THAT 1Gi WORKS WELL FOR UP TO 10 CORES >>
+          size: 1Gi 
         storage:
-          size: 1Gi << I FOUND THAT 1Gi WORKS WELL FOR UP TO 10 CORESE >>
+          size: 1Gi 
   placement:
     miner:
       attributes:
