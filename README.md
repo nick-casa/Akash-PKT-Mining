@@ -18,8 +18,6 @@ According to their whitepaper, "Nodes support the network by expending bandwidth
 
 If you are using Zulu on Mac, click the "Generate New Address" button on the bottom right to make a new wallet. Each PKT wallet starts with "pkt".
 
-![Screen Shot 2021-08-27 at 2.02.20 PM](/Users/nickolascasalinuovo/Library/Application Support/typora-user-images/Screen Shot 2021-08-27 at 2.02.20 PM.png)
-
 **Mac Users** - I recommend Zulu Wallet for Mac ([download](https://github.com/artrepreneur/Zulu/releases))
 **Windows Users** - For Windows, you can set up a wallet on Electrum ([guide](https://docs.pkt.cash/en/latest/electrum/#windows))
 
@@ -43,7 +41,6 @@ If you are using Zulu on Mac, click the "Generate New Address" button on the bot
 
 2. Once you see a serial number under the "Certicate" in the top right, you're ready to create a deployment.
 
-   ![cert](/Users/nickolascasalinuovo/Downloads/cert.png)
 
 ### 2.3 )  Creating A Deployment
 
@@ -63,13 +60,9 @@ Now that we're familiarized with the basics, let's make some miners!
 
 3. This will check that you have everything needed: A balance of 5 AKT, A valid certificate on the blockchain, and a valid local certificate.
 
-   ![Requirements](/Users/nickolascasalinuovo/Downloads/Requirements.png)
-
 4. If you have all of these, continue. If not, check back to a previous part of the manual to fix the error.
 
 5. Next, you will choose a template. Select "Empty" and click "**Next**"
-
-   ![empty](/Users/nickolascasalinuovo/Downloads/empty.png)
 
 6. Following this, copy the deploy.yml in this repository and paste it into the empty textbox. 
 
@@ -77,19 +70,14 @@ Now that we're familiarized with the basics, let's make some miners!
 
      1. PKT Wallet Address
 
-        ![Screen Shot 2021-08-29 at 10.06.14 PM](/Users/nickolascasalinuovo/Library/Application Support/typora-user-images/Screen Shot 2021-08-29 at 10.06.14 PM.png)
-
      2. \# of vCPUs (Recommended: 10) 
 
      3. Amount of memory (Recommended: 1Gi)
 
      4. Amount of storage (Recommended: 1Gi)
 
-        ![Screen Shot 2021-08-29 at 10.06.54 PM](/Users/nickolascasalinuovo/Library/Application Support/typora-user-images/Screen Shot 2021-08-29 at 10.06.54 PM.png)
 
 8. Optional: Then, all the way at the bottom, under "deployment" you can customize the "count" field. This is how many instances of the deployment you want. So, for instance, if you have 10vCPUs and 1Gi of Memory/Storage and set the count to 2, you will have 20vCPUs and 2Gi of Memory/Storage split into two different deployments.
-
-   ![Screen Shot 2021-08-29 at 9.45.39 PM](/Users/nickolascasalinuovo/Desktop/Screen Shot 2021-08-29 at 9.45.39 PM.png)
 
 9. After configuring the deploy.yml, click "**Create Deployment**"
 
@@ -98,8 +86,6 @@ Now that we're familiarized with the basics, let's make some miners!
 11. Congratulations, your miner is up and running! 
 
 12. Once you deploy your miner, you should see information about the deployment. Some important things to note are your amount spent, time left, and cost per month.
-
-    ![Screen Shot 2021-08-27 at 1.56.58 PM](/Users/nickolascasalinuovo/Library/Application Support/typora-user-images/Screen Shot 2021-08-27 at 1.56.58 PM.png)
 
 13. Repeat 2.3 as for as many miners as you would like to host, and make sure to set the four values in step #7. 
 
@@ -113,13 +99,10 @@ Zulu Wallet makes it easy to create new PKT wallet addresses. So - with this - I
 
 Another way to track this is with the [block explorer](https://explorer.pkt.cash/). If you input your PKT address, it will show mining payouts. 
 
-![Screen Shot 2021-08-27 at 2.04.45 PM](/Users/nickolascasalinuovo/Library/Application Support/typora-user-images/Screen Shot 2021-08-27 at 2.04.45 PM.png)
-
 This could all be automated, but I decided to use good ol' Google Sheets to analyze. This makes it easy for me to share my results with anyone reading this. 
 
 On the left side of the sheet is the raw data collected, and on the right are some calculations. I look at each trial's speed in PKT/h, its monthly profit, cost to mine 1 PKT, and Profit Margin / ROI on multiple miner setups. 
 
-[Here](https://docs.google.com/spreadsheets/d/1FN1BRM53-uivG8aGU9xmFFSk-VtxrsNiU8IChLVfurE/edit?usp=sharing) is the sheet. Feel free to copy and use this for your testing. 
 
 ###### My Findings
 
@@ -127,11 +110,7 @@ As it turns out PKT block rewards reduce by 10% every 100 days, and there are ma
 
 Below are some of the configurations that I tested, with the best miner costing about .005$/PKT 
 
-![Screen Shot 2021-08-29 at 9.32.24 PM](/Users/nickolascasalinuovo/Library/Application Support/typora-user-images/Screen Shot 2021-08-29 at 9.32.24 PM.png)
-
 NOTE: Some data may be inaccurate due to randomness. Trials were run in pairs of 2 side-by-side. I would like to test all of these configurations simultaneously.
-
-![Screen Shot 2021-08-29 at 9.42.46 PM](/Users/nickolascasalinuovo/Desktop/Screen Shot 2021-08-29 at 9.42.46 PM.png)
 
 All I can say is that there are definitely ways to make profitable setups now - at the end of August 2021. AKT is sitting at around $3, and PKT is about $0.02. Since the difficulty of mining will increase, we can assume the price of PKT will increase in the future, even if by a small margin. So, my strategy is going in strong now and mining while it is profitable at the current rates. My mindset is that if its profitable now, and we know if we hold it for a small time it will go up, it's a win-win. I think AKT will also rise, which will make this less profitable in the future, which also points to allocating more resources to it now.
 
