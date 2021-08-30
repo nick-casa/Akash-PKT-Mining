@@ -19,6 +19,7 @@ According to their whitepaper, "Nodes support the network by expending bandwidth
 If you are using Zulu on Mac, click the "Generate New Address" button on the bottom right to make a new wallet. Each PKT wallet starts with "pkt".
 
 **Mac Users** - I recommend Zulu Wallet for Mac ([download](https://github.com/artrepreneur/Zulu/releases))
+
 **Windows Users** - For Windows, you can set up a wallet on Electrum ([guide](https://docs.pkt.cash/en/latest/electrum/#windows))
 
 
