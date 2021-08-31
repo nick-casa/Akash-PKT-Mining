@@ -19,6 +19,7 @@ According to their whitepaper, "Nodes support the network by expending bandwidth
 [This](https://pkt.cash/wallet/#setup) guide on their site illustrates the different ways to set up a pkt.cash wallet. I prefer to work on Mac, so I used the Zulu Wallet GUI, which was very easy to set up. 
 
 ![Zulu GUI](/docs/zulu.png)
+
 *Zulu GUI*
 
 If you are using Zulu on Mac, click the "Generate New Address" button on the bottom right to make a new wallet. Each PKT wallet starts with "pkt".
@@ -49,6 +50,7 @@ If you are using Zulu on Mac, click the "Generate New Address" button on the bot
 
 
 ![Certificate Example](/docs/certificate.png)
+
 *Certificate Example*
 
 ### 2.3 )  Creating A Deployment
@@ -70,6 +72,7 @@ Now that we're familiarized with the basics, let's make some miners!
 3. This will check that you have everything needed: A balance of 5 AKT, A valid certificate on the blockchain, and a valid local certificate.
 
 ![Requirements](/docs/requirements.png)
+
 *Requirements*
 
 4. If you have all of these, continue. If not, check back to a previous part of the manual to fix the error.
@@ -77,6 +80,7 @@ Now that we're familiarized with the basics, let's make some miners!
 5. Next, you will choose a template. Select "Empty" and click "**Next**"
 
 ![Empty](/docs/empty.png)
+
 *Empty*
 
 6. Following this, copy the deploy.yml in this repository and paste it into the empty textbox. 
@@ -94,7 +98,8 @@ Now that we're familiarized with the basics, let's make some miners!
 
 8. Optional: Then, all the way at the bottom, under "deployment" you can customize the "count" field. This is how many instances of the deployment you want. So, for instance, if you have 10vCPUs and 1Gi of Memory/Storage and set the count to 2, you will have 20vCPUs and 2Gi of Memory/Storage split into two different deployments.
 
-![Deployment Count](/docs/deployment_count.png)
+![Deployment Count](/docs/deployment count.png)
+
 *Deployment Count*
 
 9. After configuring the deploy.yml, click "**Create Deployment**"
@@ -122,6 +127,7 @@ This could all be automated, but I decided to use good ol' Google Sheets to anal
 On the left side of the sheet is the raw data collected, and on the right are some calculations. I look at each trial's speed in PKT/h, its monthly profit, cost to mine 1 PKT, and Profit Margin / ROI on multiple miner setups. 
 
 ![Analysis](/docs/analysis.png)
+
 *Analysis*
 
 ###### My Findings
