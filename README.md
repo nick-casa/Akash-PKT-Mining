@@ -10,7 +10,7 @@ According to their whitepaper, "Nodes support the network by expending bandwidth
 
 
 
-[![Guide to Mining PKT on Akash at Scale](/docs/pkt-mining.jpeg)](https://www.youtube.com/watch?v=GBXEzDu5JYE "Put hover text here!")
+[![Guide to Mining PKT on Akash at Scale](/docs/pkt-mining.jpg)](https://www.youtube.com/watch?v=GBXEzDu5JYE "Put hover text here!")
 
 ---
 
