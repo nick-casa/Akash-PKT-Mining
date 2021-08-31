@@ -18,6 +18,9 @@ According to their whitepaper, "Nodes support the network by expending bandwidth
 
 [This](https://pkt.cash/wallet/#setup) guide on their site illustrates the different ways to set up a pkt.cash wallet. I prefer to work on Mac, so I used the Zulu Wallet GUI, which was very easy to set up. 
 
+![Zulu GUI](/docs/zulu.png)
+*Zulu GUI*
+
 If you are using Zulu on Mac, click the "Generate New Address" button on the bottom right to make a new wallet. Each PKT wallet starts with "pkt".
 
 **Mac Users** - I recommend Zulu Wallet for Mac ([download](https://github.com/artrepreneur/Zulu/releases))
