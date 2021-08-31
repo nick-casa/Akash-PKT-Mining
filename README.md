@@ -9,7 +9,8 @@ The Akash cloud is the future of cloud computing, and I was not suprised to lear
 According to their whitepaper, "Nodes support the network by expending bandwidth, CPU time and performing encryption to mint new PKT coins into cirulcation, called *PKT Cash*." In short, the mining creates packets - called "announcements" - which are about 1kb. These announcements get pre-commited, then have a mining algorithm performed on them. Because the two main requirements are bandwith and CPU, this type of mining is optimal for the Akash network. 
 
 
-[![Guide to Mining PKT on Akash at Scale](docs/pkt-mining.jpeg)](https://www.youtube.com/watch?v=GBXEzDu5JYE "Put hover text here!")
+
+[![Guide to Mining PKT on Akash at Scale](/docs/pkt-mining.jpeg)](https://www.youtube.com/watch?v=GBXEzDu5JYE "Put hover text here!")
 
 ---
 
