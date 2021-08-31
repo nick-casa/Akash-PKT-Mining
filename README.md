@@ -124,6 +124,8 @@ Another way to track this is with the [block explorer](https://explorer.pkt.cash
 
 This could all be automated, but I decided to use good ol' Google Sheets to analyze. This makes it easy for me to share my results with anyone reading this. 
 
+The spreadsheet can be found [here](https://docs.google.com/spreadsheets/d/1FN1BRM53-uivG8aGU9xmFFSk-VtxrsNiU8IChLVfurE/edit?usp=sharing)
+
 On the left side of the sheet is the raw data collected, and on the right are some calculations. I look at each trial's speed in PKT/h, its monthly profit, cost to mine 1 PKT, and Profit Margin / ROI on multiple miner setups. 
 
 ![Analysis](/docs/analysis.png)
@@ -135,6 +137,11 @@ On the left side of the sheet is the raw data collected, and on the right are so
 As it turns out PKT block rewards reduce by 10% every 100 days, and there are many more conditions to observe when trying to establish if a miner is profitable. Will it be profitable if AKT goes up by x%? Will it be profitable if PKT goes down by Y%? Will it be profitable in 100 days?
 
 Below are some of the configurations that I tested, with the best miner costing about .005$/PKT 
+
+![Analysis](/docs/analysis1.png)
+
+*Analysis*
+
 
 NOTE: Some data may be inaccurate due to randomness. Trials were run in pairs of 2 side-by-side. I would like to test all of these configurations simultaneously.
 
