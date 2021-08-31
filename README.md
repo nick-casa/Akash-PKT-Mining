@@ -98,7 +98,7 @@ Now that we're familiarized with the basics, let's make some miners!
 
 8. Optional: Then, all the way at the bottom, under "deployment" you can customize the "count" field. This is how many instances of the deployment you want. So, for instance, if you have 10vCPUs and 1Gi of Memory/Storage and set the count to 2, you will have 20vCPUs and 2Gi of Memory/Storage split into two different deployments.
 
-![Deployment Count](/docs/deployment count.png)
+![Deployment Count](/docs/deployment-count.png)
 
 *Deployment Count*
 
