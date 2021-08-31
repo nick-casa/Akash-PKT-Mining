@@ -1,7 +1,7 @@
 # Guide to Mining PKT on Akash at Scale
 
 [![Guide to Mining PKT on Akash at Scale](/docs/pkt-mining.jpg)](https://www.youtube.com/watch?v=GBXEzDu5JYE "Youtube - Guide to Mining PKT on Akash at Scale")
-*You can follow the video for this guide by clicking on the image above or [here] (https://www.youtube.com/watch?v=GBXEzDu5JYE)*
+*You can follow the video for this guide by clicking on the image above or ([here] (https://www.youtube.com/watch?v=GBXEzDu5JYE))*
 
 The Akash cloud is the future of cloud computing, and I was not suprised to learn that it is now paving the way for decentralized crypto mining. This project was painless and quite fun to implement and test different mining setups. I hope this guide makes it even more simple for you.
 
