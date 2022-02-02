@@ -26,7 +26,7 @@ If you are using Zulu on Mac, click the "Generate New Address" button on the bot
 
 **Mac Users** - I recommend Zulu Wallet for Mac ([download](https://github.com/artrepreneur/Zulu/releases))
 
-**Windows Users** - For Windows, you can set up a wallet on Electrum ([guide](https://docs.pkt.cash/en/latest/electrum/#windows))
+**Windows Users** - For Windows, you can set up the Pkt.world wallet ([download site](https://www.pkt.world/wallet)) or the command line wallet ([guide](https://docs.pkt.cash/en/latest/pktd/pktwallet/))
 
 
 
